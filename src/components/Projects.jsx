@@ -64,6 +64,7 @@ const Projects = () => {
       category: "Personal Website",
       description: "This portfolio website showcases projects, skills, and contact — built with React, Vite, and Framer Motion.",
       tags: ["React", "Vite", "Framer Motion", "CSS", "JavaScript"],
+      repoUrl: "https://github.com/Saru1354/Portfolio",
       color: "var(--accent-color-4)",
       deepDive: {
         problem: "Showcase work, skills, and contact information in a performant, responsive site.",
