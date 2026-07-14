@@ -1,0 +1,40 @@
+.about-section {
+  position: relative;
+  z-index: 2;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.about-card {
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-icon {
+  margin-bottom: 1.5rem;
+}
+
+.about-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-card-desc {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
